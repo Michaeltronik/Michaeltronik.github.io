@@ -38,6 +38,18 @@ h1 {
   img2 {
     max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
   }
+ img3 {
+    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
+  }
+  img4 {
+    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
+  }
+ img5 {
+    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
+  }
+  img6 {
+    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
+  }
   #img2 {
     width: 400px; /* Cambia el valor según lo que necesites */
     height: 600px; /* Cambia el valor según lo que necesites */
