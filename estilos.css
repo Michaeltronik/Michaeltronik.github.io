@@ -79,5 +79,25 @@ h1 {
   }
   
   .imagen:hover {
-    transform: scale(1.5); /* Escala la imagen al 120% del tamaño original */
+    transform: scale(1.8); /* Escala la imagen al 120% del tamaño original */
   }
+  nav {
+    background-color: #a80e0e; /* Color de fondo de la barra de opciones */
+}
+
+ul {
+    list-style-type: none; /* Quita los puntos de lista */
+    padding: 0; /* Elimina el espacio entre los elementos de la lista */
+    font-size: 40px;
+}
+
+li {
+    display: inline; /* Muestra los elementos en línea */
+    margin-right: 200px; /* Espacio entre elementos */
+}
+
+a {
+    text-decoration: none; /* Quita la subraya de los enlaces */
+    color: white; /* Color del texto de los enlaces */
+}
+
