@@ -50,6 +50,18 @@ h1 {
     width: 400px; /* Cambia el valor según lo que necesites */
     height: 600px; /* Cambia el valor según lo que necesites */
   }
+  #img4 {
+    width: 400px; /* Cambia el valor según lo que necesites */
+    height: 600px; /* Cambia el valor según lo que necesites */
+  }
+  #img5 {
+    width: 400px; /* Cambia el valor según lo que necesites */
+    height: 600px; /* Cambia el valor según lo que necesites */
+  }
+  #img6 {
+    width: 400px; /* Cambia el valor según lo que necesites */
+    height: 600px; /* Cambia el valor según lo que necesites */
+  }
   .imagen {
     transition: transform 0.3s; /* Añade una transición suave a la transformación */
   }
