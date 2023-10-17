@@ -1,0 +1,59 @@
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1d1d6b;
+}*/
+h1 {
+  text-align: center; /* Centra el texto dentro del elemento h1 */
+  font-size: 44px; /* Cambia el tamaño según lo que necesites */
+}
+
+body {
+  background-image: url('images/shn.jpg');
+  background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Fija la imagen en su posición mientras se desplaza la página */
+  background-position: center center; /* Centra la imagen en el contenedor */
+}
+.miClase {
+    color: green;
+}
+h1 {
+    color: rgb(247, 238, 238); /* Cambia "red" por el color que prefieras */
+  }
+  h2 {
+    color: rgb(0, 255, 42); /* Cambia "red" por el color que prefieras */
+  }
+  #boton1 {
+    background-color: rgb(90, 89, 89); /* Cambia "blue" por el color que prefieras */
+    color: rgb(24, 24, 23); /* Cambia "white" por el color del texto que prefieras */
+  }
+  #boton1 {
+    background-color: rgb(90, 89, 89); /* Cambia "blue" por el color que prefieras */
+    color: rgb(24, 24, 23); /* Cambia "white" por el color del texto que prefieras */
+  }
+  
+  img1 {
+    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
+  }
+  img2 {
+    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
+  }
+  #img2 {
+    width: 400px; /* Cambia el valor según lo que necesites */
+    height: 600px; /* Cambia el valor según lo que necesites */
+  }
+  #img1 {
+    width: 400px; /* Cambia el valor según lo que necesites */
+    height: 600px; /* Cambia el valor según lo que necesites */
+  }
+  #img3 {
+    width: 400px; /* Cambia el valor según lo que necesites */
+    height: 600px; /* Cambia el valor según lo que necesites */
+  }
+  .imagen {
+    transition: transform 0.3s; /* Añade una transición suave a la transformación */
+  }
+  
+  .imagen:hover {
+    transform: scale(1.5); /* Escala la imagen al 120% del tamaño original */
+  }
