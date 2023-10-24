@@ -11,6 +11,7 @@ boton1.addEventListener('click',function(){
     alert('boton clickeado!');
     window.alert("hola josue!!!");
     //boton1.style.backgroundColor = "white";
+    console.log('fffff');
 });
 
 

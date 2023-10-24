@@ -32,55 +32,27 @@ h1 {
     color: rgb(24, 24, 23); /* Cambia "white" por el color del texto que prefieras */
   }
   
-  img1 {
-    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
-  }
-  img2 {
-    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
-  }
- img3 {
-    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
-  }
-  img4 {
-    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
-  }
- img5 {
-    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
-  }
-  img6 {
-    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
-  }
-  #img2 {
-    width: 400px; /* Cambia el valor según lo que necesites */
-    height: 600px; /* Cambia el valor según lo que necesites */
-  }
-  #img1 {
-    width: 400px; /* Cambia el valor según lo que necesites */
-    height: 600px; /* Cambia el valor según lo que necesites */
-  }
-  #img3 {
-    width: 400px; /* Cambia el valor según lo que necesites */
-    height: 600px; /* Cambia el valor según lo que necesites */
-  }
-  #img4 {
-    width: 400px; /* Cambia el valor según lo que necesites */
-    height: 600px; /* Cambia el valor según lo que necesites */
-  }
-  #img5 {
-    width: 400px; /* Cambia el valor según lo que necesites */
-    height: 600px; /* Cambia el valor según lo que necesites */
-  }
-  #img6 {
-    width: 400px; /* Cambia el valor según lo que necesites */
-    height: 600px; /* Cambia el valor según lo que necesites */
-  }
+
   .imagen {
+    margin-right: 50px;
+    margin-top: 20px;
     transition: transform 0.3s; /* Añade una transición suave a la transformación */
+    max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
+    width: 400px; /* Cambia el valor según lo que necesites */
+    height: 600px; /* Cambia el valor según lo que necesites */
+   
   }
   
-  .imagen:hover {
-    transform: scale(1.8); /* Escala la imagen al 120% del tamaño original */
+  .carousel-item img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
   }
+  .carousel-inner img {
+    max-width: 40%; /* Reducir el ancho al 70% del contenedor */
+    height: auto; /* La altura se ajustará automáticamente según el ancho */
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+}
   nav {
     background-color: #a80e0e; /* Color de fondo de la barra de opciones */
 }
@@ -94,6 +66,7 @@ ul {
 li {
     display: inline; /* Muestra los elementos en línea */
     margin-right: 200px; /* Espacio entre elementos */
+    
 }
 
 a {
