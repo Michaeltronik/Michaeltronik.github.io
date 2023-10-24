@@ -44,11 +44,11 @@ h1 {
   }
   
   .carousel-item img:hover {
-    transform: scale(1.2);
+    transform: scale(1.6);
     transition: transform 0.3s;
   }
   .carousel-inner img {
-    max-width: 40%; /* Reducir el ancho al 70% del contenedor */
+    max-width: 60%; /* Reducir el ancho al 70% del contenedor */
     height: auto; /* La altura se ajustará automáticamente según el ancho */
     margin: 0 auto; /* Centrar horizontalmente */
     display: block; /* Hace que la imagen sea un elemento de bloque */
